@@ -4,6 +4,7 @@ pragma solidity ^0.8.0;
 contract SolidityTest {
    uint storedData;     
    string data = 'test';
+   bytes32 data = 'resst';
    constructor() public {
       storedData = 10; 
    }
