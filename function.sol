@@ -27,7 +27,7 @@ contract firsFunction{
          bstr[k--] = byte(uint8(48 + _i % 10));
          _i /= 10;
       }
-      return string(bstr);//access local variable
+      return string(bstr);//access local
 
     }  
 }
