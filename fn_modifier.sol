@@ -12,7 +12,7 @@ contract Owner {
         _;
     }
 
-    modifier costs(uint price) {
+    modifier costs(uint price) { 
         require(msg.value >= price, "Insufficient funds sent");
         _;
     }
