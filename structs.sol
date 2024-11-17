@@ -19,5 +19,9 @@ function get(uint _index) public view returns (string memory text, bool complete
     return (todo.text, todo.completed)
 
  }
- 
+ function toggleCompleted(uint _index) public {
+    Todo storage todo =  todos[_index]
+    Todo.completed = !Todo.completed
+ }
+
 }
