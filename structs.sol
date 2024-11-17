@@ -5,4 +5,6 @@ contract Todos{
     string text;
     bool completed;
   }
+//an array of todo structs
+ todo[] public todos
 }
