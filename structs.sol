@@ -12,5 +12,11 @@ function create( string colldata _text ) public{
  //3 ways to initialize a struct
 //- calling it like a function
 todos.push(Todo(_text, false));
+//key value mapping
+todos.push(Todo({text:_text, completed:false}))
+//initialize an empty struct and then update it
+todo memory todo;
+todo.text = _textl;
+todos.push(todo)
  }
 }
