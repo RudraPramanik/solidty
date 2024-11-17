@@ -7,4 +7,10 @@ contract Todos{
   }
 //an array of todo structs
  todo[] public todos
+ //create a fn that allow to create todo list
+function create( string colldata _text ) public{
+ //3 ways to initialize a struct
+//- calling it like a function
+todos.push(Todo(_text, false));
+ }
 }
